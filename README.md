@@ -4,7 +4,7 @@ Aprire il file Matlab “Codice.m”.
 Importare su Matlab tutti i file nella stessa cartella di lavoro.
 
 Per avviare l’applicazione:
-Le prime righe del codice di progettoAudio.m descrivono i valori di input utilizzati dall’algoritmo; in particolare il valore “sFactor” rappresenta il valore di time-scalina con cui si desidera modificare la traccia audio: settando questo valore a piacere e facendo partire in run l’applicativo si nota infatti si nota un rallentamento o un’accelerazione del file .wav a seconda del valore scelto per sFactor (per come è costruito l’algoritmo per valori di sFactor<1 la traccia audio verrà rallentata; per valori di sFactor>1 la traccia audio verrà accelerata).
+Le prime righe del codice di progettoAudio.m descrivono i valori di input utilizzati dall’algoritmo; in particolare il valore alpha rappresenta il valore di time-scalina con cui si desidera modificare la traccia audio: settando questo valore a piacere e facendo partire in run l’applicativo si nota infatti si nota un rallentamento o un’accelerazione del file .wav a seconda del valore scelto per sFactor (per come è costruito l’algoritmo per valori di alpha<1 la traccia audio verrà rallentata; per valori di alpha>1 la traccia audio verrà accelerata).
 
 
 Descrizione:
